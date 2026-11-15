@@ -123,7 +123,9 @@ header{position:sticky;top:0;z-index:20;background:rgba(245,241,232,.94);backdro
 .team h2{font-size:clamp(32px,4vw,48px);margin:18px 0 16px}
 .team .intro{color:var(--terra-escuro);max-width:640px}
 .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
-.member{background:var(--areia);border:1px solid var(--linha);padding:26px;display:flex;flex-direction:column;gap:10px}
+.member{background:var(--areia);border:1px solid var(--linha);padding:0 0 26px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
+.member img{width:100%;aspect-ratio:1/1;object-fit:cover;margin-bottom:8px}
+.member>:not(img){margin-left:24px;margin-right:24px}
 .member .pill{align-self:flex-start;color:var(--areia);padding:5px 10px;font-size:10.5px}
 .member h3{font-size:22px}
 .member p{font-size:14.5px;color:var(--terra-escuro)}
@@ -427,21 +429,25 @@ footer{background:var(--terra-escuro);color:var(--areia-2);border-top:1px solid 
     <p class="intro">Cada profissional cuida da sua frente. A Aprumo garante que todos conversem e trabalhem na mesma direção.</p>
     <div class="team-grid">
       <article class="member">
+        <img src="eq-daiane.jpg" alt="Daiane Santos correndo em prova de trail" width="640" height="640" loading="lazy">
         <span class="mono pill" style="background:#A81218">Direção · Mente</span>
         <h3>Daiane Santos</h3>
         <p>Planejamento de temporada, estratégia de prova e Eneagrama aplicado ao atleta. Faz a leitura que orienta o trabalho de todo o time.</p>
       </article>
       <article class="member">
+        <img src="eq-linaldo.jpg" alt="Linaldo Nascimento, fisioterapeuta" width="640" height="640" loading="lazy">
         <span class="mono pill" style="background:#8B5E3C">Corpo</span>
         <h3>Linaldo Nascimento</h3>
         <p>Fisioterapeuta, quiropraxista e osteopata, com base em preparação física. Prevenção, reabilitação e fortalecimento, com atendimento a domicílio.</p>
       </article>
       <article class="member">
+        <img src="eq-ernesto.jpg" alt="Dr. Ernesto Loureiro, odontologia do sono" width="640" height="640" loading="lazy">
         <span class="mono pill" style="background:#0C361E">Sono e respiração</span>
         <h3>Dr. Ernesto Loureiro</h3>
         <p>Odontologia do sono e miofuncional. Exame do sono domiciliar para avaliar respiração, oxigenação e qualidade do descanso.</p>
       </article>
       <article class="member">
+        <img src="eq-moacir.jpg" alt="Moacir Almeida, nutricionista, correndo" width="640" height="640" loading="lazy">
         <span class="mono pill" style="background:#8B5E3C">Corpo</span>
         <h3>Moacir Almeida</h3>
         <p>Nutrição para o atleta de endurance: a estratégia de alimentação acompanhando o ciclo de treino e a prova.</p>
