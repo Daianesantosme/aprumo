@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aprumoendurance.com.br/sitemap.xml
